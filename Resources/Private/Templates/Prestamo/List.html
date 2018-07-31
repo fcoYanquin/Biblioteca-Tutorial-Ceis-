@@ -52,10 +52,10 @@ Otherwise your changes will be overwritten the next time you save the extension 
         <tbody>
             <f:for each="{prestamos}" as="prestamo">
                 <tr>
-                                    <td>{prestamo.inicio -> f:format.date()}</td>
-                                    <td>{prestamo.fin -> f:format.date()}</td>
-                                    <td>{prestamo.libro}</td>
-                                    <td>{prestamo.lector}</td>
+                    <td>{prestamo.inicio -> f:format.date()}</td>
+                    <td>{prestamo.fin -> f:format.date()}</td>
+                    <td>{prestamo.libro.nombre}</td>
+                    <td>{prestamo.lector.nombre}</td>
                     <td><f:link.action class="btn btn-warning btn-sm" action="edit" arguments="{prestamo : prestamo}">Editar</f:link.action></td>
                     <td><f:link.action class="btn btn-danger btn-sm confirm-delete" action="delete" arguments="{prestamo : prestamo}">Borrar</f:link.action></td>
                 </tr>
