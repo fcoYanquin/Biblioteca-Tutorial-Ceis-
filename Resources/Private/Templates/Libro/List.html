@@ -41,10 +41,10 @@ Otherwise your changes will be overwritten the next time you save the extension 
     <table  class="table table-striped table-hover table-condensed table-bordered sortable" id="tx_biblio-table">
         <thead>
             <tr>
-                        <th><f:translate key="tx_biblio_domain_model_libro.nombre" /></th>
-                        <th><f:translate key="tx_biblio_domain_model_libro.devuelto" /></th>
-                        <th><f:translate key="tx_biblio_domain_model_libro.editorial" /></th>
-                        <th><f:translate key="tx_biblio_domain_model_libro.autor" /></th>
+                <th><f:translate key="tx_biblio_domain_model_libro.nombre" /></th>
+                <th><f:translate key="tx_biblio_domain_model_libro.devuelto" /></th>
+                <th><f:translate key="tx_biblio_domain_model_libro.editorial" /></th>
+                <th><f:translate key="tx_biblio_domain_model_libro.autor" /></th>
                 <th colspan="2">Acciones </th>
             </tr>
         </thead>
@@ -52,16 +52,15 @@ Otherwise your changes will be overwritten the next time you save the extension 
         <tbody>
             <f:for each="{libros}" as="libro">
                 <tr>
-                                    <td>{libro.nombre}</td>
-                                    <td><f:if condition="{libro.devuelto}"><f:then><span class="glyphicon glyphicon-ok"></span></f:then><f:else><span class="glyphicon glyphicon-remove"></span></f:else></f:if></td>
-                                    <td>{libro.editorial.nombre}</td>
-                                    <td>
-                                        <f:for each="{libro.autor}" as="autor">
-                                            {autor.nombre}
+                    <td>{libro.nombre}</td>
+                    <td><f:if condition="{libro.devuelto}"><f:then><span class="glyphicon glyphicon-ok"></span></f:then><f:else><span class="glyphicon glyphicon-remove"></span></f:else></f:if></td>
+                    <td>{libro.editorial.nombre}</td>
+                    <td>
+                        <f:for each="{libro.autor}" as="autor">
+                            {autor.nombre}
 
-                                        </f:for>
-
-                                    </td>
+                        </f:for>
+                    </td>
                     <td><f:link.action class="btn btn-warning btn-sm" action="edit" arguments="{libro : libro}">Editar</f:link.action></td>
                     <td><f:link.action class="btn btn-danger btn-sm confirm-delete" action="delete" arguments="{libro : libro}">Borrar</f:link.action></td>
                 </tr>
