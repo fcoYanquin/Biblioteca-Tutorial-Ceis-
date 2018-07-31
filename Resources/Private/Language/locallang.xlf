@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-07-24T20:08:02Z" product-name="biblio">
+		<header/>
+		<body>
+			<trans-unit id="tx_biblio_domain_model_editorial">
+				<source>Editorial</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_editorial.nombre">
+				<source>Nombre</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_libro">
+				<source>Libro</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_libro.nombre">
+				<source>Nombre</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_libro.devuelto">
+				<source>Devuelto</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_libro.editorial">
+				<source>Editorial</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_libro.autor">
+				<source>Autor</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_lector">
+				<source>Lector</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_lector.nombre">
+				<source>Nombre</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_lector.rut">
+				<source>Rut</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_lector.password">
+				<source>Password</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_lector.fe_user_lector">
+				<source>Fe User Lector</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_autor">
+				<source>Autor</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_autor.nombre">
+				<source>Nombre</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_prestamo">
+				<source>Prestamo</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_prestamo.inicio">
+				<source>Inicio</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_prestamo.fin">
+				<source>Fin</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_prestamo.libro">
+				<source>Libro</source>
+			</trans-unit>
+			<trans-unit id="tx_biblio_domain_model_prestamo.lector">
+				<source>Lector</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

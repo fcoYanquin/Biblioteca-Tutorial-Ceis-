@@ -1,0 +1,45 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<div class="form-group">
+            <label for="nombre">
+                <f:translate key="tx_biblio_domain_model_libro.nombre" />
+            </label><br>
+                    <f:form.textfield property="nombre"  class="form-control" type="text" maxlength="255" />
+        </div>
+        <div class="form-group">
+            <label for="devuelto">
+                <f:translate key="tx_biblio_domain_model_libro.devuelto" />
+            </label><br>
+<div class="checkbox">
+        <label>
+            <f:form.checkbox property="devuelto" value="1"/>
+            <f:translate key="tx_biblio_domain_model_libro.devuelto" />
+        </label>
+</div>
+        </div>
+        <div class="form-group">
+            <label for="editorial">
+                <f:translate key="tx_biblio_domain_model_libro.editorial" />
+            </label><br>
+                    <f:form.select
+        id="editorial"
+        property="editorial"
+        options="{editorials}"
+        optionValueField="uid"
+        optionLabelField="nombre"
+        class="form-control doSelect2" />
+        </div>
+        <div class="form-group">
+            <label for="autor">
+                <f:translate key="tx_biblio_domain_model_libro.autor" />
+            </label><br>
+                    <f:form.select
+        id="autor"
+        property="autor"
+        options="{autors}"
+        optionValueField="uid"
+        multiple="true"
+        optionLabelField="nombre"
+        class="form-control"
+        size="5" />
+        </div>
+</html>

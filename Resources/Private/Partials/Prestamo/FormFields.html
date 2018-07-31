@@ -1,0 +1,44 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<div class="form-group">
+            <label for="inicio">
+                <f:translate key="tx_biblio_domain_model_prestamo.inicio" />
+            </label><br>
+                    <f:form.textfield property="inicio.date" class="form-control bootstrapDatepicker"  value="{prestamo.inicio->f:format.date(format:'d-m-Y')}"
+ />
+                          <f:form.hidden property="inicio.dateFormat" value="d-m-Y"/>
+                          <f:form.hidden property="inicio.timeZone" value="America/Santiago"/>
+        </div>
+        <div class="form-group">
+            <label for="fin">
+                <f:translate key="tx_biblio_domain_model_prestamo.fin" />
+            </label><br>
+                    <f:form.textfield property="fin.date" class="form-control bootstrapDatepicker"  value="{prestamo.fin->f:format.date(format:'d-m-Y')}"
+ />
+                          <f:form.hidden property="fin.dateFormat" value="d-m-Y"/>
+                          <f:form.hidden property="fin.timeZone" value="America/Santiago"/>
+        </div>
+        <div class="form-group">
+            <label for="libro">
+                <f:translate key="tx_biblio_domain_model_prestamo.libro" />
+            </label><br>
+                    <f:form.select
+        id="libro"
+        property="libro"
+        options="{libros}"
+        optionValueField="uid"
+        optionLabelField="uid"
+        class="form-control doSelect2" />
+        </div>
+        <div class="form-group">
+            <label for="lector">
+                <f:translate key="tx_biblio_domain_model_prestamo.lector" />
+            </label><br>
+                    <f:form.select
+        id="lector"
+        property="lector"
+        options="{lectors}"
+        optionValueField="uid"
+        optionLabelField="uid"
+        class="form-control doSelect2" />
+        </div>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f8d99652-abed-40cd-86cf-026b2e81de67" name="Moscu - Tutorial  Biblioteca (CEIS)" url="http://moscu.ceisufro.cl">
+        <fileTransfer host="moscu.ceisufro.cl" port="22" rootFolder="/var/www/html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

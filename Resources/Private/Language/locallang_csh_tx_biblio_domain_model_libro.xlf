@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-07-24T20:08:02Z" product-name="biblio">
+		<header/>
+		<body>
+			<trans-unit id="nombre.description">
+				<source>nombre</source>
+			</trans-unit>
+			<trans-unit id="devuelto.description">
+				<source>devuelto</source>
+			</trans-unit>
+			<trans-unit id="editorial.description">
+				<source>editorial</source>
+			</trans-unit>
+			<trans-unit id="autor.description">
+				<source>autor</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

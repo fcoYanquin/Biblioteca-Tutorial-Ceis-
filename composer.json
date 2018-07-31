@@ -1,0 +1,14 @@
+{
+    "name": "gabriel/biblio",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^8.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gabriel\\Biblio\\": "Classes"
+        }
+    }
+}

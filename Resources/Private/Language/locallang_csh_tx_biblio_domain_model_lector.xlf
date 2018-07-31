@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-07-24T20:08:02Z" product-name="biblio">
+		<header/>
+		<body>
+			<trans-unit id="nombre.description">
+				<source>nombre</source>
+			</trans-unit>
+			<trans-unit id="rut.description">
+				<source>rut</source>
+			</trans-unit>
+			<trans-unit id="password.description">
+				<source>password</source>
+			</trans-unit>
+			<trans-unit id="fe_user_lector.description">
+				<source>feUserLector</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
